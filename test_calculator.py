@@ -1,3 +1,7 @@
+# https://github.com/awojtulewski/lab11-AW-LL
+# Partner 1: Alexander Wojtulewski
+# Partner 2: Leo Li
+
 import unittest
 from calculator import *
 
@@ -22,9 +26,9 @@ class TestCalculator(unittest.TestCase):
         self.assertAlmostEqual(mul(3.142, 7.5), 23.565)
 
     def test_divide(self): # 3 assertions
-        self.assertEqual(div(16, 2), 8)
-        self.assertEqual(div(-9, 0.5), -18)
-        self.assertAlmostEqual(div(261, 5), 52.2)
+        self.assertEqual(div(2, 16), 8)
+        self.assertEqual(div( 0.5, -9), -18)
+        self.assertAlmostEqual(div(5, 261), 52.2)
 
 
     ####### Partner 2
