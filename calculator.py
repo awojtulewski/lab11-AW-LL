@@ -1,3 +1,7 @@
+# https://github.com/awojtulewski/lab11-AW-LL
+# Partner 1: Alexander Wojtulewski
+# Partner 2: Leo Li
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
